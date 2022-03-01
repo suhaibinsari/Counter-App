@@ -1,0 +1,75 @@
+.titlebar{
+text-align: center;
+margin-top: 60px;
+}
+
+#heading{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+
+.buttons{
+text-align: center;
+padding-top: 50px;
+
+
+}
+
+.btn-1{
+border: 3px solid white;
+padding: 15px 40px;
+border-radius: 10px;
+background-color: lightblue;
+font-weight: 800;
+font-size: 20px;
+color: white;
+
+
+}
+.btn-1:hover{
+transition: 0s;
+color: black;
+border: 2px solid black;
+
+}
+.btn-2{
+    border: 3px solid white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-weight: 800;
+font-size: 20px;
+color: white;
+
+    }
+    .btn-2:hover{
+        transition: 0s;
+        color: black;
+        border: 2px solid black;
+        
+        }
+    .btn-3{
+        border: 3px solid white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: red;
+        font-weight: 600;
+    font-size: 20px;
+    color: white;
+    
+        }
+        .btn-3:hover{
+            transition: 0s;
+            color: black;
+            border: 2px solid black;
+            
+            }
+
+#screen{
+    padding: 10px 30px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    
+    border: 2px solid black;
+}

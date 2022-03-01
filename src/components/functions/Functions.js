@@ -1,8 +1,10 @@
 import { useState } from "react";
+import Button from "../button/Button";
 
 
 
 export default function Functions() {
+  
  const [count, setCount] = useState(0)
 
  const incrementHandler = () =>{
@@ -19,7 +21,7 @@ setCount(0)
 }
 return (
   <div style={{margin:20}}>
-      <h1>Counter App</h1>
+     
         <button onClick={decrementHandler}>-</button>
         <span style={{padding:10}}>{count}</span>
         <button onClick={incrementHandler}>+</button>
@@ -27,3 +29,4 @@ return (
   </div>
 )
 }
+

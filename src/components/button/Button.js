@@ -1,8 +1,10 @@
 import React from 'react'
+// import { useState } from "react";
 
-function Button() {
+
+function Button(props) {
   return (
-    <div>moon</div>
+    <button className={props.className}>{props.title || 'Default Button'}</button>
   )
 }
 
