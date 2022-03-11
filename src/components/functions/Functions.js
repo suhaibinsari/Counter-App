@@ -3,7 +3,7 @@ import Button from "../button/Button";
 
 
 
-export default function Functions() {
+export function Functions() {
   
  const [count, setCount] = useState(0)
 
